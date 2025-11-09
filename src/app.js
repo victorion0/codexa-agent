@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 
 // A2A POST endpoint
-app.post("/a2a", (req, res) => {
+app.post("/a2a/agent/codexa", (req, res) => {
   const { message } = req.body;
 
   if (!message) {
